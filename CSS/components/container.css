@@ -1,0 +1,7 @@
+Pour le fichier container.css, vous pouvez ajouter les lignes suivantes pour créer un conteneur qui centralise le contenu de la page de manière responsive :
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}

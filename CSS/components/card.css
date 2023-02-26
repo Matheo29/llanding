@@ -1,0 +1,27 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+}
+
+.card.phone {
+  background-image: url('../images/phone.jpg');
+}
+
+.card.ipad {
+  background-image: url('../images/ipad.jpg');
+}
+
+.card.computer {
+  background-image: url('../images/computer.jpg');
+}
